@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.register_container{
+    display: flex;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 100;
+    bottom: 500px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.application{
+    color: blue;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.register_button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: cadetblue;
+    color: #1D267D;
+    font-weight: 1000;
+}
+
+.register_button:hover{
+    background-color: #1D267D;
+    color: cadetblue;
+}
+
+input{
+    padding: 2px;
+    outline: none;
+    background-color: whitesmoke;
+    color: rgb(50, 50, 185);
+}
+.register_cancel{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
